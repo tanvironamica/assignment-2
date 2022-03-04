@@ -1,0 +1,102 @@
+    /* fonts */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:ital,wght@1,500&display=swap');
+    /* common styles or utilities */
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .influencer {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 20px;
+    }
+    
+    .button {
+        text-decoration: none;
+        background-color: #E02C6D;
+        border-radius: 50px;
+        font-weight: 700;
+        padding: 10px 24px;
+        color: white;
+    }
+    
+    .camera img {
+        width: 440;
+        height: 414;
+    }
+    
+    .camera:hover {
+        width: 200px;
+        height: 200px;
+        transform: rotate(-45deg);
+    }
+    /* Collection Styles */
+    
+    h3 {
+        text-align: center;
+    }
+    
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 24px;
+    }
+    
+    .collect {
+        box-shadow: 2px 2px 10px wheat;
+        margin: 10px 20px;
+        padding: 20px 20px;
+    }
+    
+    .collect .collect-banner img {
+        width: 300px;
+        height: 256px;
+    }
+    
+    .fa-star {
+        font-size: 12px;
+    }
+    
+    .fa-star.filled {
+        color: #FFC014;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .button-right {
+        text-decoration: none;
+        background-color: #E02C6D;
+        color: white;
+        padding: 10px 24px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    
+    .footer {
+        background-color: black;
+        text-align: center;
+        font-size: 7px;
+        font-weight: 700;
+        height: 150px;
+        width: 100%;
+        color: white;
+    }
+    /* Media Queries  */
+    /* Mobile Devices */
+    
+    @media only screen and (max-width:688px) {
+        .influencer {
+            width: 100%;
+        }
+    }
